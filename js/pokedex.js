@@ -1,26 +1,27 @@
 $(function() {
   // Step 0: Set your assigned pokemon to the "pokemon" variable! I have put in Bulbasaur for an example
-  var pokemon = charmander;
+  var pokemon = bulbasaur;
 
   // STEP 1: Uncomment the next line and make sure that the pokemon object prints to the console!
-  //   e.g. console.log(pokemon)
+   console.log(pokemon)
 
   // STEP 2: Use jQuery to add information to the empty fields. The first few have been done for you.
   // Note that some of these fields may not exist for your pokemon. 
   
   $(".pokemon-name").append(pokemon.name);
   $(".pokemon-evolves").append(pokemon.evolutions[0].to);
-  $(".pokemon-ev-level").append("?") // Replace the ?
-  // TODO: Add evolution level here
-  // TODO: Add speed here
-  // TODO: Add attack here
-  // TODO: Add defense here
+  $(".pokemon-ev-level").append(pokemon.evolutons[0].level) // Replace the ?
+   TODO: Ivysuar
+   TODO: 45
+  TODO: 49
+  TODO: 49
   
-  // TODO: Add ability names here to the <ul> with class .ability-names
-  
+  // TODO: Add ability names here to the <ul> with class .ability-name
+    .abilities("overgrow","chlorophyll");
   // TODO: Add egg group names here to a <ul> that you created
-
+    .egg_groups("Plant","Monster");
   // TODO: Add move names in alphabetical order here to the existing <ul>
+    
   // TODO: Add ONLY level up move names to the <ul> you created
 
   // Now... take a deep breath and go back to your move lists.
