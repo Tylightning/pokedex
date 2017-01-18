@@ -10,18 +10,24 @@ $(function() {
   
   $(".pokemon-name").append(pokemon.name);
   $(".pokemon-evolves").append(pokemon.evolutions[0].to);
-  $(".pokemon-ev-level").append(pokemon.evolutons[0].level) // Replace the ?
-   TODO: Ivysuar
-   TODO: 45
-  TODO: 49
-  TODO: 49
+  $(".pokemon-ev-level").append(pokemon.evolutions[0].level) // Replace the ?
+  // TODO: Ivysuar
+  $(".pokemon-attk").append(" 45");
+  $(".pokemon-defn").append("49");
+   $("pokemon-spd").append(" 49");
   
   // TODO: Add ability names here to the <ul> with class .ability-name
-    .abilities("overgrow","chlorophyll");
+    $(".ability-names").append("<li>overgrow</li>");
+    $(".ability-names").append("<li>chlorophyll</li>");
   // TODO: Add egg group names here to a <ul> that you created
-    .egg_groups("Plant","Monster");
+    //.egg_groups("Plant","Monster");
   // TODO: Add move names in alphabetical order here to the existing <ul>
+    // moves[
+    // Attract;
+    // Bide;
+    // Bind;
     
+    // ]
   // TODO: Add ONLY level up move names to the <ul> you created
 
   // Now... take a deep breath and go back to your move lists.
